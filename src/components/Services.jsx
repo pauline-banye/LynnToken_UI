@@ -156,7 +156,7 @@ return (
     </div>
     <div
       onClick={() => pop("claim")}
-      className=" w-[18rem] px-[7.7rem] m-4 cursor-pointer py-[0.4rem] p-14  bg-orange-600 rounded-lg text-gray-100  font-semibold"
+      className=" w-[18rem] px-[7.7rem] m-4 cursor-pointer py-[0.4rem] p-14  bg-yellow-600 rounded-lg text-gray-100  font-semibold"
     >
       claim
     </div>
@@ -189,7 +189,7 @@ const Services = () => (
           color="bg-[#8945F8]"
           title="Best exchange rates"
           icon={<BiSearchAlt fontSize={18} className="text-white" />}
-          subtitle="We offer the best exchange rates for transfers!"
+          subtitle="We offer the unmatched exchange rates for transfers No other app comes close!"
         />
         <ServiceCard
           color="bg-[#F84550]"
