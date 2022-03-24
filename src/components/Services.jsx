@@ -56,8 +56,8 @@ const Main = () => {
 const Circle = () => {
   return (
     <div className="flex space-x-6 justify-center items-center">
-      <div className=" rounded-full w-52 h-52 bg-white flex justify-center  items-center ">
-        <div className="w-44 h-44 rounded-full bg-black-500 flex justify-center items-center">
+      <div className=" rounded-full w-52 h-52 bg-orange flex justify-center  items-center ">
+        <div className="w-44 h-44 rounded-full bg-white-500 flex justify-center items-center">
           <div className="w-36 h-36 rounded-full bg-blue-900 flex flex-col space-y-1 justify-center items-center">
             <span className="text-sm text-gray-300  ">Total Balance</span>
             <p className="text-bold text-grey font-bold text-2xl">100</p>
