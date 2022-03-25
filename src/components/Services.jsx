@@ -163,7 +163,7 @@ return (
     </div>
     <div
       onClick={() => pop("unstake")}
-      className=" w-[18rem] px-[7.3rem] m-3 cursor-pointer py-[0.4rem] ring-2 ring-red-600 rounded-lg text-gray-100  font-semibold"
+      className=" w-[18rem] px-[7.3rem] m-3 cursor-pointer py-[0.4rem] ring-2 ring-red-600 bg-red-600 rounded-lg text-gray-100  font-semibold"
     >
       unstake
     </div>
