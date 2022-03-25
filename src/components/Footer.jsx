@@ -10,17 +10,19 @@ const Footer = () => (
         <img src={logo} alt="logo" className="w-32" />
       </div>
       <div className="flex flex-1 justify-evenly items-center flex-wrap sm:mt-0 mt-5 w-full">
-      <div class="socials-logo">
-        <div className="flex space-x-4 my-5">
-          <a
-            className="text-white text-l font-extrabold"
-            class="hire-me-btn"
-            href="mailto:paulinebanye@gmail.com"
-            target="blank"
-            class="hire-me-content"
-          >
-            Get in touch! <i class="fas fa-arrow-right font-extrabold"></i>
-          </a>
+        <div class="socials-logo">
+          <div className="flex space-x-4 my-5">
+            <span className="text-white  text-xl">
+              {/* <a
+                className="text-white text-l font-extrabold"
+                class="hire-me-btn"
+                href="mailto:paulinebanye@gmail.com"
+                target="blank"
+                class="hire-me-content"
+                >
+                Get in touch! <i class="fas fa-arrow-right font-extrabold"></i>
+              </a> */}
+            </span>
             <span className="flex space-x-4  my-5">
               <SocialIcon bgColor="grey" url="https://github.com/pauline-banye" />
               <SocialIcon url="https://twitter.com/PauLynn_Bee" />
